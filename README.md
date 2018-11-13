@@ -18,4 +18,8 @@ Just like other DW plugins, automatic install by [Extension Manager](https://www
  * Popover button is a pseudo-element ::after.
  * Button click is detected by calculating popover position in relation to the parent link.
 
-Please enjoy this beautiful sh*t, and let all the beings be free from suffering and delusions!
+# Info
+
+[EditOnLink Plugin page](https://www.dokuwiki.org/plugin:editonlink)
+
+**Please enjoy this beautiful shit, and let all the beings be free from suffering and delusions!**
