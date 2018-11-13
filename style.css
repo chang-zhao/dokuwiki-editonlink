@@ -1,7 +1,7 @@
-.wikilink1, .wikilink2 {
+a.wikilink1, a.wikilink2, a.breadcrumbs {
     position: relative;
 }
-.wikilink1:after, .wikilink2:after {
+a.wikilink1:after, a.wikilink2:after, a.breadcrumbs:after {
     width: 24px;
     height: 24px;
     border-radius: 14px;
@@ -26,14 +26,14 @@
     -o-transition: all 0.3s ease-out 0.2s;
     transition: all 0.3s ease-out 0.2s;
 }
-.wikilink1:hover, .wikilink2:hover {
+a.wikilink1:hover, a.wikilink2:hover, a.breadcrumbs:hover {
     text-decoration: none;
     background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cpath fill='none' stroke='%23669933' stroke-width='1' class='st0' d='M0,3.5 c 5,0, 5, -3, 10, -3 s 5,3, 10, 3 c 5,0, 5, -3, 10, -3 s 5,3, 10, 3' /%3E%3Cstyle type='text/css'%3E.st0 { animation: shift 0.3s linear infinite; } @keyframes shift { from { transform: translateX(0); } to { transform: translateX(-20px); } }%3C/style%3E%3C/svg%3E");
     background-position-y: 0.9em;
     background-size: 1em 0.5em;
     background-repeat: repeat-x;
 }
-.wikilink1:hover:after, .wikilink2:hover:after {
+a.wikilink1:hover:after, a.wikilink2:hover:after, a.breadcrumbs:hover:after {
     visibility: visible;
     opacity: 0.8;
     margin: -14px -14px 0 0;
