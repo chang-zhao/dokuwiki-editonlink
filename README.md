@@ -4,6 +4,10 @@ Hower an *inner wiki link* to see an animated decoration and a popover button fo
 
 ![Test image](https://github.com/chang-zhao/dokuwiki-editonlink/blob/master/editonlink.gif)
 
+# Live demo
+
+[TEST](https://xxx.obschy.ru/editonlink/test.php)
+
 # Installation
 
 Just like other DW plugins, automatic install by [Extension Manager](https://www.dokuwiki.org/plugin:extension); or manual install (see [Plugins](https://www.dokuwiki.org/plugin)).
