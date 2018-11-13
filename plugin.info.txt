@@ -1,0 +1,7 @@
+base   editonlink
+author Constant Illumination (Chang Zhao)
+email  alex@obschy.ru
+date   2018-11-13
+name   Edit Button On Inner Wiki Link
+desc   For inner wiki links it inserts a popover button [[linked:page?do=edit]]
+url    https://www.dokuwiki.org/plugin:editonlink
