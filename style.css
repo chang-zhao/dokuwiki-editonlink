@@ -1,19 +1,21 @@
 a.wikilink1, a.wikilink2, a.breadcrumbs {
     position: relative;
 }
+a.wikilink1:hover, a.wikilink2:hover, a.breadcrumbs:hover {
+    text-decoration: none;
+    background: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cpath fill='none' stroke='%23669933' stroke-width='1' class='st0' d='M0,3.5 c 5,0, 5, -3, 10, -3 s 5,3, 10, 3 c 5,0, 5, -3, 10, -3 s 5,3, 10, 3' /%3E%3Cstyle type='text/css'%3E.st0 { animation: shift 0.3s linear infinite; } @keyframes shift { from { transform: translateX(0); } to { transform: translateX(-20px); } }%3C/style%3E%3C/svg%3E") 0 0.9em / 1em 0.5em repeat-x;
+}
 a.wikilink1:after, a.wikilink2:after, a.breadcrumbs:after {
-    width: 24px;
-    height: 24px;
-    border-radius: 14px;
-    padding: 2px;
+    width: 1em;
+    height: 1em;
+    padding: 0.1em;
+    border-radius: 0.65em;
     border: thin solid #990;
     content: "";
     color: #990;
     margin: 0;
     box-shadow: 0 0 1px #EAEAC0;
-    background-color: #FAFAE0;
-    background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z'%3E%3C/path%3E%3C/svg%3E");
-    background-repeat: no-repeat;
+    background: #FAFAE0 url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z'%3E%3C/path%3E%3C/svg%3E") no-repeat;
     background-size: cover;
     position: absolute;
     z-index: 100;
@@ -26,15 +28,8 @@ a.wikilink1:after, a.wikilink2:after, a.breadcrumbs:after {
     -o-transition: all 0.3s ease-out 0.2s;
     transition: all 0.3s ease-out 0.2s;
 }
-a.wikilink1:hover, a.wikilink2:hover, a.breadcrumbs:hover {
-    text-decoration: none;
-    background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cpath fill='none' stroke='%23669933' stroke-width='1' class='st0' d='M0,3.5 c 5,0, 5, -3, 10, -3 s 5,3, 10, 3 c 5,0, 5, -3, 10, -3 s 5,3, 10, 3' /%3E%3Cstyle type='text/css'%3E.st0 { animation: shift 0.3s linear infinite; } @keyframes shift { from { transform: translateX(0); } to { transform: translateX(-20px); } }%3C/style%3E%3C/svg%3E");
-    background-position-y: 0.9em;
-    background-size: 1em 0.5em;
-    background-repeat: repeat-x;
-}
 a.wikilink1:hover:after, a.wikilink2:hover:after, a.breadcrumbs:hover:after {
     visibility: visible;
-    opacity: 0.8;
-    margin: -14px -14px 0 0;
- }
+    opacity: 0.9;
+    margin: -0.6em -0.6em 0 0;
+}
