@@ -18,5 +18,8 @@ decoration and a popover button.</p>
 <div><a href="test.php" class="wikilink1">LINK TO TEST.PHP</a></div>
 <p>Clicking that button must turn URL<br>
 "test.php" into "test.php?do=edit".</p>
+<p> <a href="test.php" class="breadcrumbs" style="font-size: x-small">breadcrumbs</a> *
+    <a href="test.php" class="breadcrumbs" style="font-size: small">breadcrumbs</a> *
+    <a href="test.php" class="wikilink2" style="font-size: large">wikilink2</a></p>
 </body>
 </html>
