@@ -11,9 +11,12 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="script.js"></script>
 </head>
-<body>
-<p>Hover this link; see an animated decoration and a popover button.</p>
-<div><a href="test.php" class="wikilink1">ASSA MASSA</a></div>
-<p>Clicking that button must turn URL "test.php" into "test.php?do=edit".</p>
+<body style="padding-left:6em;<?php if($_GET['do']=='edit') echo 'color:#369;'; ?>">
+<?php echo '$_GET = '.var_export($_GET, true); ?>
+<p>Hover this link; see an animated<br>
+decoration and a popover button.</p>
+<div><a href="test.php" class="wikilink1">LINK TO TEST.PHP</a></div>
+<p>Clicking that button must turn URL<br>
+"test.php" into "test.php?do=edit".</p>
 </body>
 </html>
