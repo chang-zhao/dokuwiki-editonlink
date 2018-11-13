@@ -8,4 +8,4 @@ window.onload=function() {
             if (dx*dx + dy*dy < 169) a.href += '?do=edit';
         }
     });
-}
+};
