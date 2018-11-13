@@ -20,6 +20,6 @@ Just like other DW plugins, automatic install by [Extension Manager](https://www
 
 # Info
 
-[EditOnLink Plugin page](https://www.dokuwiki.org/plugin:editonlink)
+[EditOnLink Plugin page on DokuWiki.Org](https://www.dokuwiki.org/plugin:editonlink)
 
-**Please enjoy this beautiful shit, and let all the beings be free from suffering and delusions!**
+# Please enjoy this beautiful shit, and let all the beings be free from suffering and delusions!
