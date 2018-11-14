@@ -6,7 +6,7 @@ window.onload=function() {
                 dx = xy.width - event.offsetX,
                 dy = event.offsetY,
                 r = parseFloat(window.getComputedStyle(a, ':after')['height'])/2 + 1;
-            if (dx*dx + dy*dy < r*r) a.href += '?do=edit';
+            if (dx*dx + dy*dy < r*r) a.href = (a.href.split('#', 1))[0] + '?do=edit';
         }
     });
 };
