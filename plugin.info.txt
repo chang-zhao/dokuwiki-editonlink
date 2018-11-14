@@ -1,7 +1,7 @@
 base   editonlink
 author Constant Illumination (Chang Zhao)
 email  alex@obschy.ru
-date   2018-11-13
+date   2018-11-14
 name   Edit On Link
 desc   For inner wiki links it inserts a hover popover button [[...?do=edit]]
 url    https://www.dokuwiki.org/plugin:editonlink
