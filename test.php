@@ -12,7 +12,7 @@
     <script src="script.js"></script>
 </head>
 <body style="padding-left:6em;<?php if($_GET['do']=='edit')
-    echo 'color:#369; background:#FFFFCC;'; ?>">
+    echo 'color:#369; background:#FFFFCC;'; ?>" class="dokuwiki">
 <?php echo '$_GET = '.htmlspecialchars(var_export($_GET, true), ENT_QUOTES); ?>
 <p>Hover this link; see an animated<br>
 decoration and a popover button.</p>
