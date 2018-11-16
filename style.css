@@ -3,8 +3,8 @@ a.wikilink1, a.wikilink2, a.breadcrumbs {
 }
 .dokuwiki a.wikilink1:hover, .dokuwiki a.wikilink2:hover, .dokuwiki a.breadcrumbs:hover {
     text-decoration: none;
-    background: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cpath fill='none' stroke='%234C9900' stroke-width='1' class='st0' d='M0,3.5 c 5,0, 5, -3, 10, -3 s 5,3, 10, 3 c 5,0, 5, -3, 10, -3 s 5,3, 10, 3' /%3E%3Cstyle type='text/css'%3E.st0 { animation: shift 0.3s linear infinite; } @keyframes shift { from { transform: translateX(0); } to { transform: translateX(-20px); } }%3C/style%3E%3C/svg%3E") 0 bottom repeat-x;
-    background-size: 0.67em 0.33em;
+    background: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 1'%3E%3Cpath fill='none' stroke='%23080' stroke-width='1' class='st0' d='M0,3.5 c 5,0, 5, -3, 10, -3 s 5,3, 10, 3 c 5,0, 5, -3, 10, -3 s 5,3, 10, 3' /%3E%3Cstyle type='text/css'%3E.st0 { animation: shift 0.3s linear infinite; } @keyframes shift { from { transform: translateX(0); } to { transform: translateX(-20px); } }%3C/style%3E%3C/svg%3E") 0 bottom repeat-x;
+    background-size: 1.2em 0.3em;
 }
 a.wikilink1:after, a.wikilink2:after, a.breadcrumbs:after {
     box-sizing: border-box;
