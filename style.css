@@ -35,3 +35,13 @@ a.wikilink1:hover:after, a.wikilink2:hover:after, a.breadcrumbs:hover:after {
     opacity: 0.9;
     margin: -0.6em -0.6em 0 0;
 }
+span#plugin__editonlink {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #FFF;
+    border: thin solid #666;
+    color: #333;
+    z-index: 101;
+    opacity: 0;
+}
