@@ -1,5 +1,6 @@
 a.wikilink1, a.wikilink2, a.breadcrumbs {
     position: relative;
+    opacity: 1;
 }
 .dokuwiki a.wikilink1:hover, .dokuwiki a.wikilink2:hover, .dokuwiki a.breadcrumbs:hover {
     text-decoration: none;
@@ -23,7 +24,6 @@ a.wikilink1:after, a.wikilink2:after, a.breadcrumbs:after {
     z-index: 100;
     top: 0;
     right: 0;
-    visibility: hidden;
     opacity: 0;
     -webkit-transition: all 0.3s ease-out 0.2s;
     -moz-transition: all 0.3s ease-out 0.2s;
@@ -31,7 +31,6 @@ a.wikilink1:after, a.wikilink2:after, a.breadcrumbs:after {
     transition: all 0.3s ease-out 0.2s;
 }
 a.wikilink1:hover:after, a.wikilink2:hover:after, a.breadcrumbs:hover:after {
-    visibility: visible;
     opacity: 0.9;
     margin: -0.6em -0.6em 0 0;
 }
