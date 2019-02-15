@@ -6,7 +6,7 @@ Hower an *inner wiki link* to see an animated decoration and a popover button fo
 
 # Live demo
 
-[TEST](https://xxx.obschy.ru/editonlink/test.php)
+[TEST](https://xxx.obschy.ru/editonlink/test.php) — Temporarily off, due to hosting provider Hiformance ran away with my money. I accept [donations](https://zen-do.ru/dana) & propositions for cheap VPS.
 
 # Installation
 
