@@ -18,13 +18,13 @@ function editOnLink(e) {
             xya = a.getBoundingClientRect(),    // the mouse click was related to <a>
             dx = e.offsetX + xya.left - x,      // how far the click was from the button?
             dy = e.offsetY + xya.top - y,
-            aUrl = (a.href.split(/#/))[0],      // link href (without anchor hash)
             r = parseFloat(window.getComputedStyle(a, ':after')['height'])/2 + 1;
         if ((dx*dx + dy*dy) < r*r) {
-            a.setAttribute('data-editonlink', a.href);          // maybe ctrl-click etc
-            if (aUrl.indexOf('?') < 0) a.href += '?do=edit';   // add EDIT to the link
+            a.setAttribute('data-editonlink', a.href);      // maybe ctrl-click etc
+            a.href = (a.href.split(/#/))[0];                // link href (without anchor hash)
+            if (a.href.indexOf('?') < 0) a.href += '?do=edit';// add EDIT to the link
             else {
-                if (aUrl.search('do=') < 0) a.href += '&do=edit';
+                if (a.href.search(/\bdo=/) < 0) a.href += '&do=edit';
                 else a.href.replace(/\bdo=[^&]*/, 'do=edit');
             }
             v.remove();
