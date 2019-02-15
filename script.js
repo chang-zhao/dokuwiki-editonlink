@@ -23,7 +23,10 @@ function editOnLink(e) {
         if ((dx*dx + dy*dy) < r*r) {
             a.setAttribute('data-editonlink', a.href);          // maybe ctrl-click etc
             if (aUrl.indexOf('?') < 0) a.href += '?do=edit';   // add EDIT to the link
-            else a.href += '&do=edit';
+            else {
+                if (aUrl.search('do=') < 0) a.href += '&do=edit';
+                else a.href.replace(/do=[^&]*/, 'do=edit');
+            }
             v.remove();
             a.addEventListener('mouseleave', editOnLinkOut);    // to restore the link back
         }
