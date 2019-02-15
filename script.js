@@ -25,7 +25,7 @@ function editOnLink(e) {
             if (aUrl.indexOf('?') < 0) a.href += '?do=edit';   // add EDIT to the link
             else {
                 if (aUrl.search('do=') < 0) a.href += '&do=edit';
-                else a.href.replace(/do=[^&]*/, 'do=edit');
+                else a.href.replace(/\bdo=[^&]*/, 'do=edit');
             }
             v.remove();
             a.addEventListener('mouseleave', editOnLinkOut);    // to restore the link back
