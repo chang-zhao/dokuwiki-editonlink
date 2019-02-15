@@ -21,7 +21,7 @@ function editOnLink(e) {
             r = parseFloat(window.getComputedStyle(a, ':after')['height'])/2 + 1;
         if ((dx*dx + dy*dy) < r*r) {
             a.setAttribute('data-editonlink', a.href);      // maybe ctrl-click etc
-            a.href = (a.href.split(/#/))[0];                // link href (without anchor hash)
+            a.href = (a.href.split('#'))[0];                // link href (without anchor hash)
             if (a.href.indexOf('?') < 0) a.href += '?do=edit';// add EDIT to the link
             else {
                 if (a.href.search(/\bdo=/) < 0) a.href += '&do=edit';
